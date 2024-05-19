@@ -1,8 +1,10 @@
 #include <bar.h>
+#include <foo.h>
 #include <iostream>
+#include <usenlo.h>
 int main(int argc, char const *argv[])
 {
-    int w = bar();
-    std::cout << w + 1 << std::endl;
+    foo();
+    usenlo("1.json", "a", "bwqww"); 
     return 0;
 }
