@@ -5,6 +5,6 @@
 int main(int argc, char const *argv[])
 {
     foo();
-    usenlo("1.json", "a", "bwqww"); 
+    usenlo("1.json", "a", "bwq    ww"); 
     return 0;
 }
