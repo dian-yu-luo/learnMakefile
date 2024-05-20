@@ -1,10 +1,8 @@
 #include <bar.h>
 #include <foo.h>
-#include <iostream>
 #include <usenlo.h>
 int main(int argc, char const *argv[])
 {
-    foo();
-    usenlo("1.json", "a", "bwq    ww"); 
+    usenlo("tmp/12.json", "oshi ", "3li强强强ang网络");
     return 0;
 }
