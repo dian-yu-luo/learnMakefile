@@ -1,8 +1,15 @@
 #include <bar.h>
 #include <foo.h>
 #include <usenlo.h>
+#include <learnvirtual.h>
+#include <ddl.h>
+#include <myNlo.h>
 int main(int argc, char const *argv[])
 {
-    usenlo("tmp/12.json", "oshi ", "3li强强强ang网络");
-    return 0;
+    learnvirtual l;
+    l.funcForlearnvirtual();
+    ddl d;
+    d.setddl();
+    myNlo m_json;
+    m_json.usenlo("tmp/dd.json", "w", "q");
 }
