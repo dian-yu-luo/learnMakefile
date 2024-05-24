@@ -3,15 +3,29 @@
 
 #pragma once
 
-class learnvirtual
+class learnvirtualBase
 {
 public:
-    learnvirtual();
-    ~learnvirtual();
+    learnvirtualBase();
+    ~learnvirtualBase();
     void funcForlearnvirtual();
 
 private:
 
 };
+
+
+
+class learnvirtualVirtual
+{
+private:
+    /* data */
+public:
+    learnvirtualVirtual(/* args */);
+    ~learnvirtualVirtual();
+    void func();
+};
+
+
 
 #endif

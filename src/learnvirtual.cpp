@@ -1,14 +1,27 @@
 #include "learnvirtual.h"
 #include <iostream>
-learnvirtual::learnvirtual()
+learnvirtualBase::learnvirtualBase()
 {
 }
 
-learnvirtual::~learnvirtual()
+learnvirtualBase::~learnvirtualBase()
 {
 }
 
-void learnvirtual::funcForlearnvirtual()
+void learnvirtualBase::funcForlearnvirtual()
 {
     printf("this is learnvirtual ");
+}
+
+learnvirtualVirtual::learnvirtualVirtual()
+{
+}
+
+learnvirtualVirtual::~learnvirtualVirtual()
+{
+}
+
+void learnvirtualVirtual::func()
+{
+// 在别的地方声明,我更想尝试使用虚函;
 }
