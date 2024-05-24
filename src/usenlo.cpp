@@ -27,5 +27,5 @@ void usenlo(string filepath, string key, string val)
 
 void usenlo2()
 {
-    printf("ww"); 
+    printf("wq qqqqqq w"); 
 }

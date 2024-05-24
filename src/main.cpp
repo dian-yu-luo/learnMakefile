@@ -4,12 +4,9 @@
 #include <learnvirtual.h>
 #include <ddl.h>
 #include <myNlo.h>
+#include <fileHigh.h>
 int main(int argc, char const *argv[])
 {
-    learnvirtual l;
-    l.funcForlearnvirtual();
-    ddl d;
-    d.setddl();
-    myNlo m_json;
-    m_json.usenlo("tmp/dd.json", "w", "q");
+    fileHigh f;
+    f.foo();
 }
